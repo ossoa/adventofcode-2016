@@ -58,6 +58,6 @@ RRDDD
 LURDL
 UUUUD`));
 
-fs.readFile('input3.txt', 'utf8', (err, input) => {
+fs.readFile('input.txt', 'utf8', (err, input) => {
   console.log(getCode(input));
 });

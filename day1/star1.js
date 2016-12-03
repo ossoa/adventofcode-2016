@@ -76,6 +76,6 @@ console.log('###', findEndPoint('R5, L5, R5, R3')); // 12
 //R5 10, 5
 //R3 10, 2
 
-fs.readFile('input1.txt', 'utf8', (err, input) => {
+fs.readFile('input.txt', 'utf8', (err, input) => {
   console.log(findEndPoint(input));
 });
